@@ -4,9 +4,9 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
+/* body {
   margin: 0 auto;
-}
+} */
 
 h1,
 h2,
@@ -17,6 +17,10 @@ h3 {
 
 h1 {
   font-size: 96px;
+}
+
+p {
+  font-size: 18px;
 }
 
 h2 {
@@ -96,4 +100,30 @@ img {
 
 a:hover {
   color: blue;
+}
+
+@media (max-width: 576px) {
+  h2.text-start {
+    text-align: center !important;
+    font-size: 32px;
+  }
+
+  h2.mt-5 {
+    padding-top: 30px;
+    font-size: 32px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p.text-start {
+    text-align: center !important;
+  }
+
+  .primary-link {
+    display: block;
+    margin: 15px;
+    text-align: center;
+  }
 }
